@@ -54,14 +54,12 @@
   
 #services {
     position: relative;
-    background: linear-gradient(white 400px, #020E35 400px);
+    background: linear-gradient(white 365px, #020E35 365px);
 }
   
 .circle {
-    position: absolute;
     z-index: 99;
     top: 400px;
-    transform: translateY(-50%);
     height: 4rem;
     width: 4rem;
     border-radius: 140px;
@@ -72,20 +70,12 @@
     .half-circle {
       display: none;
     }
-  
-    #services {
-      background: linear-gradient(white 1000px, #020E35 1000px);
-    }
 }
   
 @media only screen and (min-width: 1080px) {
-    .circle {
-      right: 2%;
-    }
+  
 }
   
 @media only screen and (min-width: 1440px) {
-    .circle {
-      right: 7%;
-    }
+  
 }
