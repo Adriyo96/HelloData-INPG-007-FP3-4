@@ -1,113 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="stylesheet" href="css/Home.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
-</head>
-<body>
-    <!-- awal -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-            <div class="container">
-                <div class="logo">
-                    <a class="navbar-brand" href="#">
-                      HD
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav ms-auto " >
-                    <a class="nav-link active" href="#Home">HOME</a>
-                    <a class="nav-link active" href="#About">ABOUT</a>
-                    <a class="nav-link active" href="#Service">SERVICE</a>
-                    <a class="nav-link active" href="#Portofolio">PORTOFOLIO</a>
-                    <a class="nav-link active aktif" href="#Contact">CONTACT US</a>
-                  </div>
-                </div>
-              </div>
-          </nav>
-    </div>
-    <section id="Home" class="min-vh-100 d-flex align-items-center py-lg-0 py-5">
-        <div class="container2">
-            <div class="row align-items-center g-5 g-lg-0">
-                <div class="col-lg-7 order-lg-1 order-2">
-                    <p class="main-header">
-                        We Create <br>
-                        Contant that <br>
-                        rank
-                        <span></span>
-                    </p> <br>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg shadow-lg test-btn" href="Jumbo action link" role="button">See Our Work</a>
-                    </p>
-                </div>
-                <div class="col-lg-5 order-lg-2 order-1">
-                   <img class="gambar" src="./image/Group.png" alt="gambar">
-                </div>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HelloData Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="src/image/HelloData (1).png">
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow">
+      <a class="navbar-brand d-none d-lg-block" href="#">
+        <div class="brand">
+          <h1 class="text-light text-center mt-4">HD</h1>
+          <div class="brand-bar"></div>
         </div>
-    </section>
-    <section class="my-5" id="About">
-        <div class="container31">
-            <h2 class="section-header text-center">About Us</h2>
-            <p class="text">Hello Data adalah perusahaan yang menyediakan layanan jasa pembuatan website profesional. <br>
-                Sebagai jasa pembuatan website profesional di bidang pengembangan situs e-commerce, situs mobile, kami memberikan solusi optimal untuk perusahaan Anda. <br>
-                Bermodalkan SDM handal di bidang IT dan jaringan, kami dapat memberikan layanan mulai dari jasa web, pengembangan system website, konstruksi DB, operasional hingga pemeliharaan.
+      </a>
+      <a class="navbar-brand" href="#">
+        <div class="brand-right d-block d-lg-none">
+          <h1 class="text-light text-center mt-4">HD</h1>
+          <div class="brand-bar"></div>
         </div>
-    </section>
-    <section id="Service" class="my-5 overflow-hidden test-jarak">
-        <div class="container3">
-            <h2 class="section-header text-center ">Our Valuable Services</h2>
-          </div>
-          <div class="container position-relative"> 
-            <div class="row">
-              <div class="col-12 d-flex justify-content-start">
-                  <div class="card-fitur me-5 position-relative test-warna1">
-                     <img src="image/Bitmap.png" alt=""> 
-                        <div class="text">
-                          <h5>App Development</h5> <br>
-                          <span>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>
-                            Dolore autem nobis illum perferendis tenetur esse facere velit, repudiandae numquam suscipit!</span> <br>
-                            <button>Read More</button>
-                        </div>
-                  </div>
-                  <div class="card-fitur me-5 test-warna2">
-                    <img src="image/Bitmap (1).png" alt=""> 
-                       <div class="text">
-                         <h5>App Development</h5> <br>
-                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>
-                           Dolore autem nobis illum perferendis tenetur esse facere velit, repudiandae numquam suscipit!</span> <br>
-                           <button>Read More</button>
-                         </div>
-                 </div>
-                 <div class="card-fitur me-5 test-warna3">
-                  <img src="image/Bitmap (2).png" alt=""> 
-                     <div class="text">
-                       <h5>App Development</h5> <br>
-                       <span>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>
-                         Dolore autem nobis illum perferendis tenetur esse facere velit, repudiandae numquam suscipit!</span> <br>
-                         <button>Read More</button>
-                     </div>
-               </div>
-              </div>
-            </div>
-            <button class="path position-absolute end-0 top-50 translate-middle">
-              <img src="image/Path 2.png" alt="">
-            </button>
-          </div>
-    </section>
+      </a>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-5" id="navbarNav">
+          <ul class="navbar-nav ms-auto p-2">
+            <li class="nav-item me-3">
+              <a class="nav-link active text-center" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-center" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-center" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-center" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link btn bg-gradient-purple text-light text-center" href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-    crossorigin="anonymous"></script>
-</body>
+    <!-- Header -->
+    <div id="home" class="container-fluid" style="margin-top: 8rem;">
+      <div class="row justify-content-center">
+        <div class="col"></div>
+        <div class="col-12 col-lg-5">
+          <div class="container-fluid">
+            <div class="row py-5">
+              <div class="col-12"> 
+                <h1 class="fw-semibold" style="font-size: 6rem;">We Create Content that Ranks</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <a href="#" class="btn bg-gradient-purple text-light fw-semibold">SEE OUR WORK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 mt-5">
+          <img src="src/image/home.png" class="img-fluid text-center" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+
+    <!-- About -->
+    <section id="about" style="margin-top: 5rem;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <h3 class="fw-semibold text-center">About Us</h3>
+            <div class="separator bg-gradient-purple mx-auto"></div>
+            <p class="text-center mx-5 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam odio quas voluptas accusamus perspiciatis inventore, excepturi quod dignissimos quidem veniam debitis consequuntur totam! Incidunt suscipit sint recusandae aliquid ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores distinctio debitis saepe eum commodi quod, inventore iure officiis vero cum ad dicta dolor asperiores excepturi ratione illo eveniet ab corporis!</p>
+          </div>
+        </div>
+      </div>
+      <div class="half-circle"></div>
+    </section>
+    <!-- About -->
+    
+    <!-- Services -->
+    <section id="services" style="margin-top: 5rem;">
+      <h3 class="fw-semibold text-center">Our Valuable Services</h3>
+      <div class="separator bg-gradient-purple mx-auto"></div>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-8 col-md-4 mt-4">
+            <div class="card w-100 py-3" style="background: #FDF8E3; min-height: 580px;">
+              <img src="src/image/service_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">App Development</p>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="w-100 text-center">
+                  <a href="" class="btn bg-gradient-purple text-light px-3 py-2 mt-5" style="font-size: .8rem;">READ MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-4 mt-4">
+            <div class="card w-100 py-3" style="background: #F0F3FA; min-height: 580px;">
+              <img src="src/image/service_2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Web Development</p>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="w-100 text-center">
+                  <a href="" class="btn bg-gradient-purple text-light px-3 py-2 mt-5" style="font-size: .8rem;">READ MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-4 mt-4">
+            <div class="card w-100 py-3" style="background: #FEEFF0; min-height: 580px;">
+              <img src="src/image/service_3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center px-3">UI UX Design</p>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="w-100 text-center">
+                  <a href="" class="btn bg-gradient-purple text-light px-3 py-2 mt-5" style="font-size: .8rem;">READ MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle d-none d-xl-flex justify-content-center p-3 bg-gradient-purple">
+        <img src="src/image/arrow.png" class="img-fluid" alt="">
+      </div>
+    </section>
+    <!-- Services -->
+    
+    <!-- Our Work -->
+    <section id="portfolio" style="padding-top: 5rem; padding-bottom: 5rem; background: #020E35;">
+      <h3 class="fw-semibold text-center text-light">Our Work</h3>
+      <div class="separator bg-gradient-purple mx-auto"></div>
+      <div class="container mt-5">
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 col-md-6">
+            <img src="src/image/work_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-6 text-light mt-4">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row justify-content-center mt-3">
+          <div class="d-none d-lg-block col-6 text-light mt-4 text-end">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="src/image/work_2.png" alt="" class="img-fluid">
+          </div>
+          <div class="d-block d-lg-none col-12 text-light mt-4">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 col-md-6">
+            <img src="src/image/work_3.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-6 text-light mt-4">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row justify-content-center mt-3">
+          <div class="d-none d-lg-block col-6 text-light mt-4 text-end">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="src/image/work_4.png" alt="" class="img-fluid">
+          </div>
+          <div class="d-block d-lg-none text-light col-12 mt-4">
+            <h3>Brand Name</h3>
+            <p class="lead">IOS | ANDROID | WEB DEVELOPMENT</p>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates, doloremque reiciendis, fuga cum iusto illo ducimus ad delectus saepe ipsam sit? Sequi ullam at obcaecati perferendis illum, libero vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 text-center mt-3">
+        <a href="" class="btn bg-gradient-purple text-light px-3 py-2 mt-5" style="font-size: .8rem;">SEE ALL WORK</a>
+      </div>
+    </section>
+    <!-- Our Work -->
+
+    <!-- Contact Form -->
+    <section id="contact" style="margin-top: 5rem;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+            <h4>Questions, Comments, Concerns?</h4>
+            <h1 class="fw-semibold" style="font-size: 5rem;">We'd love to <span style="color: #E73587;">hear</span> from you!</h1>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="something@website.com"/>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-control" placeholder="Question about your article"/>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" placeholder="Your message starts with..." rows="6"></textarea>
+              </div>
+              <div class="mb-3">
+                <input class="btn bg-gradient-purple text-light w-100" type="button" value="Send a Message"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form -->
+
+    <!-- Footer -->
+    <section id="footer" style="margin-top: 5rem; background: #020E35;">
+      <div class="container">
+        <div class="row text-light py-2">
+          <h6>2020 &copy; All rights reserved by HelloData</h6>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>

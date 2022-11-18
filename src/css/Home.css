@@ -1,0 +1,91 @@
+* {
+    font-family: 'Basic';
+}
+  
+.bg-gradient-purple {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+  
+.brand {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 100px;
+    height: 125px;
+    background: #020E35;
+}
+  
+.brand-right {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 100px;
+    height: 125px;
+    background: #020E35;
+}
+  
+.brand-bar { 
+    position: absolute;
+    bottom: 0;
+    height: 5% ;
+    width: 100%;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+  
+.separator {
+    height: 3px;
+    width: 6rem;
+}
+  
+#about {
+    position: relative;
+}
+  
+.half-circle {
+    position: absolute;
+    z-index: 99;
+    top: -2rem;
+    left: -140px;
+    height: 280px;
+    width: 280px;
+    border-radius: 140px;
+    background-color: #F0F3FA;
+}
+  
+#services {
+    position: relative;
+    background: linear-gradient(white 400px, #020E35 400px);
+}
+  
+.circle {
+    position: absolute;
+    z-index: 99;
+    top: 400px;
+    transform: translateY(-50%);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 140px;
+    background-color: #F0F3FA;
+}
+  
+@media only screen and (max-width: 768px) {
+    .half-circle {
+      display: none;
+    }
+  
+    #services {
+      background: linear-gradient(white 1000px, #020E35 1000px);
+    }
+}
+  
+@media only screen and (min-width: 1080px) {
+    .circle {
+      right: 2%;
+    }
+}
+  
+@media only screen and (min-width: 1440px) {
+    .circle {
+      right: 7%;
+    }
+}
