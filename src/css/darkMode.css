@@ -69,7 +69,46 @@ body.dark-theme div.half-circle {
     background: #B2B2B2;
 }
 
-body.dark-theme section{
-    background: #151515;
-    background-color: #151515;
+body.dark-theme #services{
+    background: #301B3F;
+    padding: 20px 0;
+}
+
+#services h3{
+    color: white;
+}
+
+
+body.dark-theme section p.card-text{
+    color: black;
+}
+
+body.dark-theme #email{
+    background: gray;
+    color: white;
+    border: none;
+}
+
+body.dark-theme #email::placeholder {
+    color: #3C4048;
+}
+
+body.dark-theme #subject{
+    background: gray;
+    color: white;
+    border: none;
+}
+
+body.dark-theme #subject::placeholder {
+    color: #3C4048;
+}
+
+body.dark-theme #message{
+    background: gray;
+    color: white;
+    border: none;
+}
+
+body.dark-theme #message::placeholder {
+    color: #3C4048;
 }

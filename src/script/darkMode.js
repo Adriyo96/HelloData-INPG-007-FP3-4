@@ -1,10 +1,18 @@
-const toggle = document.querySelector('#darkmode-toogle')
+const currentTheme = localStorage.getItem("theme");
 
-const darkmode = () => {
-    document.body.classList.toggle('dark-theme');  
+if (currentTheme == "dark"){
+    document.body.classList.toggle('dark-theme');
+    document.querySelector('#darkmode-toggle').checked = true;
 }
 
-btn.addEventListener('click', function() {
-    // Then toggle (add/remove) the .dark-theme class to the body
-    document.body.classList.toggle('dark-theme');  
-  })
+const darkmode = () => {
+    document.body.classList.toggle('dark-theme');
+    
+    let theme = "light";
+
+    if(document.body.classList.contains('dark-theme')){
+        theme = "dark";
+    }
+
+    localStorage.setItem("theme", theme);
+}
