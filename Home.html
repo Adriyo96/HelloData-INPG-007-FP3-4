@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="src/image/HDicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./src/css/darkMode.css">
     <link rel="stylesheet" href="./src/css/firework.css">
   </head>
@@ -18,13 +18,13 @@
     <nav class="navbar navbar-expand-lg shadow">
       <a class="navbar-brand d-none d-lg-block" href="#">
         <div class="brand">
-          <h1 class="text-light text-center mt-4">HD</h1>
+          <p class="text-light text-center mt-4 display-3">HD</p>
           <div class="brand-bar"></div>
         </div>
       </a>
       <a class="navbar-brand" href="#">
         <div class="brand-right d-block d-lg-none">
-          <h1 class="text-light text-center mt-4">HD</h1>
+          <p class="text-light text-center mt-4 display-3">HD</p>
           <div class="brand-bar"></div>
         </div>
       </a>
@@ -244,9 +244,7 @@
           </div>
         </div>
         <button class="carousel-control-next" type="button" data-bs-target="#servicesDesktop" data-bs-slide="next">
-          <div class="circle justify-content-center p-3 bg-gradient-purple">
-            <img src="src/image/arrow.png" class="img-fluid" alt="">
-          </div>
+          <img src="src/image/arrow.png" class="img-fluid circle justify-content-center p-3 bg-gradient-purple" alt="">
         </button>
       </div>
       <div id="carouselExampleControls" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
@@ -307,9 +305,7 @@
           </div>
         </div>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <div class="circle justify-content-center p-3 bg-gradient-purple">
-            <img src="src/image/arrow.png" class="img-fluid" alt="">
-          </div>
+          <img src="src/image/arrow.png" class="img-fluid circle justify-content-center p-3 bg-gradient-purple" alt="">
         </button>
       </div>
     </section>
@@ -383,24 +379,24 @@
         <div class="row">
           <div class="col-12 col-lg-6 mb-4">
             <h4>Questions, Comments, Concerns?</h4>
-            <h1 class="fw-semibold" style="font-size: 5rem;">We'd love to <span style="color: #E73587;">hear</span> from you!</h1>
+            <p class="fw-semibold display-1" style="font-size: 5rem;">We'd love to <span style="color: #E73587;">hear</span> from you!</p>
           </div>
           <div class="col-12 col-lg-6">
             <form>
               <div class="mb-3">
                 <label for="email" class="form-label">Your Email Address</label>
-                <input type="email" id="email" class="form-control" placeholder="something@website.com"/>
+                <input type="email" id="email" class="form-control" placeholder="something@website.com">
               </div>
               <div class="mb-3">
                 <label for="subject" class="form-label">Subject</label>
-                <input type="text" id="subject" class="form-control" placeholder="Question about your article"/>
+                <input type="text" id="subject" class="form-control" placeholder="Question about your article">
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea id="message" class="form-control" placeholder="Your message starts with..." rows="6"></textarea>
               </div>
               <div class="mb-3">
-                <input class="btn bg-gradient-purple text-light w-100" type="button" value="Send a Message" onclick="firework()"/>
+                <input class="btn bg-gradient-purple text-light w-100" type="button" value="Send a Message" onclick="bundle()">
               </div>
             </form>
           </div>
@@ -420,5 +416,6 @@
     <script src="./src/script/animation.js"></script>
     <script src="./src/script/darkMode.js"></script>
     <script src="./src/script/firework.js"></script>
+    <script src="./src/script/email.js"></script>
   </body>
 </html>
