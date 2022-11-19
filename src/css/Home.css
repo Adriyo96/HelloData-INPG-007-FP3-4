@@ -55,6 +55,7 @@
 #services {
     position: relative;
     background: linear-gradient(white 365px, #020E35 365px);
+    z-index: 100;
 }
   
 .circle {
@@ -92,16 +93,27 @@
     transition: all .3s;
 }
 .popup-content{
-    width: 1000px;
-    height: 500px ;
+    width: 80vw;
+    height: 60vh ;
     background: #020E35;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%)scale(.25);
     opacity: 0;
+    z-index: 99999999999999999!important;
     transition: all .5s .1s;
 }
+@media screen and (max-width: 1200px) {
+    .popup-content {
+        width: 100vw;
+        height: 100vh;
+    }
+    .card {
+        margin: 10px 0px;
+    }
+
+  }
 .popup-content h2{
     text-align: center;
     font-family: Basic;
@@ -112,9 +124,8 @@
 }
 .popup-card{
     display: flex;
-    margin-left: 125px;
     margin-top: 50px;
-    width: 800px;
+    width: 80vh;
 }
 #popup:target{
     opacity: 1;
